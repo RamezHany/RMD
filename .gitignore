@@ -1,0 +1,25 @@
+# Rust
+/target/
+**/*.rs.bk
+
+# Node / frontend
+node_modules/
+dist/
+
+# Tauri
+src-tauri/target/
+
+# AI model weights — never commit these (~1 GB each)
+*.gguf
+models/
+
+# OS & editors
+.DS_Store
+Thumbs.db
+.idea/
+
+# Logs & local env
+*.log
+.env
+.env.*
+!.env.example
