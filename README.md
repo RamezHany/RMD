@@ -39,6 +39,14 @@ Full details: [docs/SPEC.md](docs/SPEC.md)
 2. **Suggestions, not takeovers.** Section-by-section diffs; the human decides.
 3. **Performance before decoration.** If it isn't fast, it doesn't ship.
 
+## Design
+
+The UI is designed in Figma first — tokens, components, and screens live here:
+
+**[RMD — App UI Design (Figma)](https://www.figma.com/design/kWLJEE0qfOL4nXtrFwrmHD)**
+
+The file holds independent design takes as separate boards for comparison: `Muse — v1` (done) and `Gemini — v2` (in progress).
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Short version: open an issue first, branch per issue, Conventional Commits, and pull requests stay unmerged until reviewed.
