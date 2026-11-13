@@ -45,7 +45,7 @@ The UI is designed in Figma first — tokens, components, and screens live here:
 
 **[RMD — App UI Design (Figma)](https://www.figma.com/design/kWLJEE0qfOL4nXtrFwrmHD)**
 
-The file holds independent design takes as separate boards for comparison: `Muse — v1` (done) and `Gemini — v2` (in progress).
+The file holds independent design takes as separate boards for comparison: `Muse — v1` (generic dark + rust-orange take), `Muse — v2` (the Ramez Hany brand edition — navy / blue / silver with the RH monogram), and `Gemini — v2` (in progress).
 
 ## Contributing
 
