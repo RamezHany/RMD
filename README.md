@@ -47,19 +47,9 @@ So I'm building it myself.
 
 Full details: [docs/SPEC.md](docs/SPEC.md)
 
-## Design principles
-
-1. **Offline, always.** The assistant makes zero network calls.
-2. **Suggestions, not takeovers.** Section-by-section diffs; the human decides.
-3. **Performance before decoration.** If it isn't fast, it doesn't ship.
-
 ## Design
 
-The UI is designed in Figma first — tokens, components, and screens live here:
-
-**[RMD — App UI Design (Figma)](https://www.figma.com/design/kWLJEE0qfOL4nXtrFwrmHD)**
-
-The file holds independent design takes as separate boards for comparison: `Muse — v1` (generic dark + rust-orange take), `Muse — v2` (the Ramez Hany brand edition — navy / blue / silver, the custom RMD mark, four modes: Code · Write (WYSIWYG) · Split · Read), `Muse — v2 · No AI` (the core edition without the assistant), and `Gemini — v2` (in progress).
+The app's UI/UX is being designed in Figma first — this is the phase the project is in right now. The design details and the file link will be added here once the design is final.
 
 ## Contributing
 
