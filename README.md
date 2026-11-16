@@ -4,7 +4,7 @@
 
 RMD is a cross-platform (Windows · macOS · Linux) Markdown editor and viewer with a built-in, fully offline mini model that helps you *design* your documents — badges, headers, tables, layout — instead of just typing them.
 
-> 🚧 **Status: pre-alpha.** The product spec is final (see [docs/SPEC.md](docs/SPEC.md)); the build has not started yet. Watch the repo if you want to follow along.
+> 🚧 **Status: pre-alpha — design phase.** The product spec is final (see [docs/SPEC.md](docs/SPEC.md)). Right now I'm designing the app's UI/UX in Figma — coding starts once the design is locked. Watch the repo if you want to follow along.
 >
 > 🤖 **Release note:** the first release (v0.1) ships **without the AI assistant** — a fast editor and viewer only. The offline model arrives in a later release.
 
@@ -36,6 +36,8 @@ So I'm building it myself.
 | AI model | llama.cpp · Qwen2.5-Coder-1.5B (GGUF, Q4) — LoRA fine-tuned on README design pairs |
 
 ## Roadmap
+
+- [ ] **Design — in progress now:** the app's UI/UX in Figma (see [Design](#design) below)
 
 - [ ] **Phase 0** — Tauri scaffold; open a file from the terminal: `rmd file.md`
 - [ ] **Phase 1** — Viewer: GitHub-style rendering, table of contents, light/dark themes
