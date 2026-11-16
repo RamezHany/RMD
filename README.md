@@ -5,6 +5,8 @@
 RMD is a cross-platform (Windows · macOS · Linux) Markdown editor and viewer with a built-in, fully offline mini model that helps you *design* your documents — badges, headers, tables, layout — instead of just typing them.
 
 > 🚧 **Status: pre-alpha.** The product spec is final (see [docs/SPEC.md](docs/SPEC.md)); the build has not started yet. Watch the repo if you want to follow along.
+>
+> 🤖 **Release note:** the first release (v0.1) ships **without the AI assistant** — a fast editor and viewer only. The offline model arrives in a later release.
 
 ## The story
 
@@ -19,7 +21,7 @@ So I'm building it myself.
 ## Why RMD?
 
 - **GitHub-faithful preview.** What you see is what GitHub renders — SVG badges, shields, relative images, tables, syntax highlighting.
-- **An assistant that only suggests.** The built-in model proposes changes **one section at a time**, presented as a diff you accept or reject. It never rewrites your whole file.
+- **An assistant that only suggests (post-v0.1).** The built-in model proposes changes **one section at a time**, presented as a diff you accept or reject. It never rewrites your whole file.
 - **100% offline.** The model runs locally on CPU. No accounts, no cloud, no telemetry — your files never leave your machine.
 - **Fast and small.** A Rust core with a native webview: a ~10 MB app, and a 1 MB file opens in under a second.
 
@@ -37,9 +39,9 @@ So I'm building it myself.
 
 - [ ] **Phase 0** — Tauri scaffold; open a file from the terminal: `rmd file.md`
 - [ ] **Phase 1** — Viewer: GitHub-style rendering, table of contents, light/dark themes
-- [ ] **Phase 2** — Editor: split live preview, autosave
-- [ ] **Phase 3** — Local model: section-level suggestions with a diff view
-- [ ] **Phase 4** — LoRA fine-tune + v0.1 release
+- [ ] **Phase 2** — Editor: split live preview, autosave → **v0.1 release (editor & viewer — no AI)**
+- [ ] **Phase 3** — *(post-v0.1)* Local model: section-level suggestions with a diff view
+- [ ] **Phase 4** — *(post-v0.1)* LoRA fine-tune + model evaluation
 
 Full details: [docs/SPEC.md](docs/SPEC.md)
 
