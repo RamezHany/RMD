@@ -28,7 +28,7 @@ A cross-platform (Windows / macOS / Linux) Markdown editor and viewer specialize
 
 **Editor:** split-view editing with live preview, autosave, and opening files from the terminal.
 
-**Assistant:** suggestions at the level of a **single section only** — the user sees a diff and accepts or rejects it. The model never writes the whole file.
+**Assistant (post-v0.1 — not in the first release):** suggestions at the level of a **single section only** — the user sees a diff and accepts or rejects it. The model never writes the whole file.
 
 **Out of scope (later):** collaboration, cloud sync, a plugin system, mobile.
 
@@ -36,9 +36,9 @@ A cross-platform (Windows / macOS / Linux) Markdown editor and viewer specialize
 
 0. Tauri scaffold + a window that opens a file.
 1. Viewer: rendering + TOC + themes.
-2. Editor: CodeMirror + live preview + autosave.
-3. Model integration: local inference + suggestions UI with diffs.
-4. Fine-tune: dataset + LoRA + evaluation, then the v0.1 release.
+2. Editor: CodeMirror + live preview + autosave → **v0.1 release (editor & viewer — no AI).**
+3. Model integration (post-v0.1): local inference + suggestions UI with diffs.
+4. Fine-tune (post-v0.1): dataset + LoRA + evaluation.
 
 ## Hard rules
 
