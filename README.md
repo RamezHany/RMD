@@ -6,6 +6,16 @@ RMD is a cross-platform (Windows · macOS · Linux) Markdown editor and viewer w
 
 > 🚧 **Status: pre-alpha.** The product spec is final (see [docs/SPEC.md](docs/SPEC.md)); the build has not started yet. Watch the repo if you want to follow along.
 
+## The story
+
+AI made Markdown my daily reality — specs, docs, and notes all land as `.md` files. And I kept hitting the same small friction: I just wanted to *look* at a file. Not open a heavy editor. Not upload it to GitHub just to see it rendered.
+
+I use Obsidian every day for my organized notes — but when I'm browsing files in Explorer and want a quick peek at one file, opening Obsidian breaks the flow.
+
+There was a polished Windows app that did exactly this: fast, light, pixel-faithful. It wasn't free, and for a while I ran a cracked copy. Then I decided to stop using cracked software — entirely. I searched open source for something with the same power *and* the same ease, and found nothing.
+
+So I'm building it myself.
+
 ## Why RMD?
 
 - **GitHub-faithful preview.** What you see is what GitHub renders — SVG badges, shields, relative images, tables, syntax highlighting.
